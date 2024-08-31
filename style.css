@@ -1,0 +1,52 @@
+/* Estilos globais para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Cor de fundo geral */
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Estilos para o menu de navegação */
+nav ul {
+    list-style: none; /* Remove marcadores de lista */
+    padding: 0;
+    display: flex; /* Exibe itens em linha */
+    justify-content: center; /* Centraliza o menu */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaçamento entre os itens do menu */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none; /* Remove sublinhado dos links */
+    font-weight: bold;
+}
+
+/* Estilo para o conteúdo principal */
+main {
+    padding: 20px;
+    background-color: #fff; /* Fundo branco para destaque */
+    margin: 20px auto;
+    max-width: 800px; /* Limita a largura do conteúdo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+}
+
+/* Estilo para a parte de baixo */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0; /* Fixa a parte de baixo na parte inferior */
+}
